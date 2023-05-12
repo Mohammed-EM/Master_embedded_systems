@@ -1,4 +1,17 @@
+LaunchTargetManager/configs/array_average.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/average\ of\ postive\ number.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/insert\ element\ in\ array.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/product\ of\ four\ numbers.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/transpose\ of\ a\ matrix.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:average of postive number.exe,org.eclipse.launchbar.core.descriptorType.default\:product of four numbers.exe,org.eclipse.launchbar.core.descriptorType.default\:sum 2 mutlidimentional array.exe,org.eclipse.launchbar.core.descriptorType.default\:array_average.exe,org.eclipse.launchbar.core.descriptorType.default\:transpose of a matrix.exe,org.eclipse.launchbar.core.descriptorType.default\:insert element in array.exe,org.eclipse.launchbar.core.descriptorType.default\:simple search algor.exe
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:array_average.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:array_average.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:average\ of\ postive\ number.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:average\ of\ postive\ number.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:insert\ element\ in\ array.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:product\ of\ four\ numbers.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:sum\ 2\ mutlidimentional\ array.exe/activeLaunchMode=run
