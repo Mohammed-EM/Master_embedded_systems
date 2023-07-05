@@ -4,7 +4,7 @@
 
 void swapArrays(int arr1[], int arr1_length, int arr2[], int arr2_length) {
     int max_length = (arr1_length > arr2_length) ? arr1_length : arr2_length;
-    int temp[MAX_LENGTH];
+    int temp[max_length];
 
     // Copy elements from the first array to the temporary array
     for (int i = 0; i < arr1_length; i++) {
@@ -23,22 +23,28 @@ void swapArrays(int arr1[], int arr1_length, int arr2[], int arr2_length) {
 }
 
 int main() {
-    int array1[] = {1, 2, 3};
-    int array2[] = {4, 5, 6, 7, 8};
+    int array1[MAX_LENGTH] = {1, 2, 3};
+    int array2[MAX_LENGTH] = {4, 5, 6, 7, 8};
 
     int array1_length = sizeof(array1) / sizeof(array1[0]);
     int array2_length = sizeof(array2) / sizeof(array2[0]);
 
     swapArrays(array1, array1_length, array2, array2_length);
-
+    printf("%d\n",array1_length);
+    printf("%d\n",array2_length);
     printf("Array 1 after swapping: ");
-    for (int i = 0; i < array1_length; i++) {
+    for (int i = 0; i < array2_length; i++) {
+        if(array1[i]==0)
+        break;
         printf("%d ", array1[i]);
+
     }
     printf("\n");
 
     printf("Array 2 after swapping: ");
-    for (int i = 0; i < array2_length; i++) {
+    for (int i = 0; i < array1_length; i++) {
+        if(array2[i]==0)
+        break;
         printf("%d ", array2[i]);
     }
     printf("\n");
